@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+  font-family: 'Pecita';
+  src: url('Pecita.otf'); /* IE9 Compat Modes */
+}
+
+header{
+	background: white;
+	width: 100vw;
+	height: 10vh;
+	line-height: 12vh;
+	position: fixed;
+	box-shadow: 0 0vh 2vh 0.2vh black;
+}
+
+header h2{	
+	font-family: 'Pecita';
+	color: black;
+	font-size: 5vh;
+	margin-left: 2vw;
+	font-weight: lighter;
+	display: inline;
+}
+
+header h2 span{
+	font-size: 10vh;
+	line-height: 10vh;
+	font-weight: lighter;
+}
+
+ul{
+	position: absolute;
+	top: 0vh;
+	right: 2vw;
+	text-decoration: none;
+	list-style: none;
+}
+
+li{
+	color: black;
+	font-size: 3vh;
+	line-height: 10vh;
+	display: inline;
+	margin-left: 2vw;
+	margin-top: 2vh;
+	transition: 0.5s;
+}
+
+#navitem{	
+	border-radius: 50%;
+	border:1px black;	
+	transition: 0.5s;
+}
+
+#navitem:hover{
+	font-size: 4vh;
+	opacity: 0.75;
+	transition: 0.5s;
+}
+
+#container{
+	display: inline-flex;
+	overflow-y: hidden;
+	height: 95vh;
+}
+
+#details img{
+	height: 50vh;
+	margin:10vw;
+	margin-bottom: 5vh;
+	display: inline-flex;
+	border: 1vh solid black;
+	box-shadow: 0.5vh 0.5vh 5vh 0.2vh black;
+}
+
+#details h2{
+	font-size: 4vh;
+	color: black;
+	text-shadow: 0.2vh 0.5vh 1vh black;
+	font-family: 'Pecita';
+	margin-left: 15vw;
+	height: 15vw;
+	width: 30vw;
+	background-size: cover;
+}
